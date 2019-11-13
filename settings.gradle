@@ -1,0 +1,6 @@
+include 'components:chess'
+include 'applications:backend'
+include 'applications:frontend'
+
+rootProject.name = 'interblag-chess'
+
