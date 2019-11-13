@@ -1,6 +1,8 @@
 package dev.dowell.chess
 
+import and
 import shouldBe
+import with
 import kotlin.test.*
 
 class MoveEngineTests {

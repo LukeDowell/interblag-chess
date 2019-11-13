@@ -25,14 +25,6 @@ fun Board.movePiece(from: Position, to: Position): Unit {
 
 fun Board.pieceAt(position: Position): Piece? = this.pieces.find { it.position == position }
 
-infix fun Board.and(piece: Piece): Board {
-    this.pieces += piece; return this
-}
-
-infix fun Board.with(piece: Piece): Board {
-    this.pieces += piece; return this
-}
-
 enum class Color { WHITE, BLACK; }
 enum class PieceType { PAWN, KNIGHT, BISHOP, ROOK, QUEEN, KING }
 
