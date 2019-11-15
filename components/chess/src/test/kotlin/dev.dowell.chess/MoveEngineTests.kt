@@ -1,15 +1,15 @@
 package dev.dowell.chess
 
-import and
-import shouldBe
-import with
-import kotlin.test.*
+import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.Test
+
 
 class MoveEngineTests {
 
     private lateinit var board: Board
 
-    @BeforeTest
+    @BeforeEach
     fun setup() {
         board = Board()
     }

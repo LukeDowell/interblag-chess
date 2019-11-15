@@ -1,10 +1,8 @@
 package dev.dowell.chess
 
-import and
-import shouldBe
-import with
-import kotlin.test.Test
-import kotlin.test.assertEquals
+import org.junit.jupiter.api.Assertions.assertEquals
+import org.junit.jupiter.api.Test
+
 
 class BoardTests {
     @Test

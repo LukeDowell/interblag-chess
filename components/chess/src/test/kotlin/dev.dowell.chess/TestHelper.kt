@@ -1,7 +1,6 @@
-import dev.dowell.chess.Board
-import dev.dowell.chess.Piece
-import dev.dowell.chess.Position
-import kotlin.test.assertEquals
+package dev.dowell.chess
+
+import org.junit.jupiter.api.Assertions.assertEquals
 
 infix fun Board.shouldBe(other: Board): Unit = assertEquals(other, this)
 

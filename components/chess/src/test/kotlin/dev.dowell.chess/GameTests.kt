@@ -1,8 +1,7 @@
 package dev.dowell.chess
 
-import shouldBe
-import kotlin.test.BeforeTest
-import kotlin.test.Test
+import org.junit.jupiter.api.BeforeEach
+import org.junit.jupiter.api.Test
 import kotlin.test.assertTrue
 
 class GameTests {
@@ -10,7 +9,7 @@ class GameTests {
     private lateinit var game: Game
     private lateinit var board: Board
 
-    @BeforeTest
+    @BeforeEach
     fun setup() {
         board = Board(pieces = allPieces)
         game = Game(board = board)
