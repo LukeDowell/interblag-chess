@@ -32,7 +32,7 @@ class GameTests {
             leftWhiteKnightPosition up 2 left 1,
             leftWhiteKnightPosition up 2 right 1)
 
-        val selectedTiles = game.selectedTiles()
+        val selectedTiles = game.highlightedTiles()
 
         selectedTiles shouldBe expectedSelectedTiles
     }
